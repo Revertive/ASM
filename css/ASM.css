@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  max-width: 980px;
+  margin: 0 auto; }
+
+header {
+  text-align: center; }
+  header a {
+    color: #000000;
+    text-decoration: none; }
+  @media (min-width: 400px) {
+    header {
+      text-align: left;
+      min-height: 88px;
+      margin: 0 2.5%;
+      width: 95%; } }
+  header img {
+    max-width: 96px;
+    display: inline;
+    float: right; }
+    @media (max-width: 400px) {
+      header img {
+        display: none; } }
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+  display: inline;
+  line-height: 50px; }
+  @media (min-width: 400px) {
+    h1 {
+      font-size: 25px;
+      line-height: 88px; } }
+  @media (min-width: 670px) {
+    h1 {
+      font-size: 50px; } }
+
+.container_content {
+  min-height: 50px;
+  padding: 10px;
+  border-top: 2px solid #000; }
+  .container_content h2, .container_content p {
+    margin: 0; }
+
+.slide_image {
+  width: 100%;
+  max-height: 641px;
+  background-size: 100% auto !important;
+  overflow: hidden; }
+  @media (min-width: 450px) {
+    .slide_image {
+      width: 46%;
+      display: inline-block; } }
+  .slide_image > img {
+    width: 100%; }
+
+.audio_player {
+  width: 100%;
+  margin: 5px 0 0; }
+
+h2 {
+  margin-bottom: 0px; }
+
+#add_message input, #add_message textarea {
+  width: 95%;
+  display: inline-block; }
+  @media (min-width: 400px) {
+    #add_message input, #add_message textarea {
+      width: 60%; } }
+@media (max-width: 400px) {
+  #add_message div {
+    text-align: center; } }
+#add_message label {
+  width: 15%;
+  display: inline-block;
+  text-align: right; }
+
+@media (min-width: 450px) {
+  .text_containter {
+    width: 53%;
+    display: inline-block;
+    vertical-align: top; } }
+
+@media (min-width: 400px) {
+  #submit_button {
+    padding-left: 22%; } }
+
+nav a {
+  width: 49%;
+  display: inline-block; }
+  nav a :hover {
+    text-decoration: underline; }
+
+/*# sourceMappingURL=ASM.css.map */
