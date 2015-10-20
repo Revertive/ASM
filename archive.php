@@ -4,7 +4,6 @@
 	}catch (Exception $e){
 		$error = $e->getMessage();
 	}
-
 	include 'templates/header.php'; 
 
 	foreach ($db->query("SELECT * FROM sermonList ORDER BY Date DESC") as $row){
