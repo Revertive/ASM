@@ -15,6 +15,16 @@ body{
   margin:0 auto;
 }
 
+.site_wide_display{
+  width:100%;
+  text-align:center;
+  background-color:#dfdfdf;
+  display:none;
+  p{
+    font-size:16px;
+  }
+}
+
 header{
   text-align:center;
   a{

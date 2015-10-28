@@ -20,6 +20,12 @@
 		<link rel="shortcut icon" href=""/>
 	</head>
 	<body>
+		<div id="site_wide_display">
+			<p>
+				There will no new sermons untill Dec 2.
+			</p>
+		</div>
+		
 		<header>
 			<h1>
 				<a href="/" title="Home">Align Student Ministries</a>
