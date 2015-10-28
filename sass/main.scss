@@ -11,17 +11,31 @@
 }
 
 body{
+  margin:0;
+  background-color:#FBFAF8;
+}
+
+#body{
   max-width:980px;
   margin:0 auto;
 }
 
-.site_wide_display{
+#site_wide_display{
   width:100%;
   text-align:center;
   background-color:#dfdfdf;
+  overflow:hidden;
+  
   display:none;
+  
   p{
+    margin:5px 0;
     font-size:16px;
+    font-weight:700;
+    @media(min-width:670px){
+      font-size:20px;
+      margin:15px 0;
+    }
   }
 }
 
