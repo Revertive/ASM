@@ -18,6 +18,9 @@
 					<?php echo $row['content']; ?>
 				</p>
 			</div>
+			<div>
+				<a href="./Messages/<?php echo $row['audio']; ?>" download="<?php echo $row['Title']; ?>" Title="Does not work in IE or Safari">Download</a>
+			</div>
 			<audio controls class="audio_player">
 				<source src="./Messages/<?php echo $row['audio']; ?>" type="audio/mpeg">
 			</audio> 
