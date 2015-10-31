@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  background-color: #ffffff; }
+  background-color: #FBFAF8; }
 
 #body {
   max-width: 980px;
@@ -43,7 +43,7 @@ header {
       margin: 0 2.5%;
       width: 95%; } }
   header img {
-    max-width: 96px;
+    max-width: 87px;
     display: inline;
     float: right; }
     @media (max-width: 400px) {
