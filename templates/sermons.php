@@ -18,7 +18,7 @@
 					<?php echo $row['content']; ?>
 				</p>
 			</div>
-			<div>
+			<div class="download_button">
 				<a href="./Messages/<?php echo $row['audio']; ?>" download="<?php echo $row['Title']; ?>" Title="Does not work in IE or Safari">Download</a>
 			</div>
 			<audio controls class="audio_player">
