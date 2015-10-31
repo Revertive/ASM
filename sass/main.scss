@@ -105,7 +105,15 @@ h1{
 
 .audio_player{
   width:100%;
-  margin:5px 0 0;
+  margin:5px 0;
+  @media(min-width:400px){
+    width:79%;
+    display:inline-block;
+    float:left;
+  }
+  audio{
+    width:100%;
+  }
 }
 
 h2{
@@ -156,11 +164,22 @@ nav a{
 }
 
 .download_button{
+  text-align:center;
+  margin:5px 0;
   a{
     text-decoration:none;
     background-color:#5C595A;
     color:#D7D6D6;
-    padding:5px;
-    margin:5px;
+    line-height:28px;
+    display:block;
   }
+  @media(min-width:400px){
+    width:20%;
+    display:inline-block;
+    float:right;
+  }
+}
+
+.audio_section{
+  overflow:hidden;
 }

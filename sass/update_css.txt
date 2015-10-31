@@ -1,1 +1,1 @@
-sass sass/main.scss css/ASM.css
+sass --watch sass/main.scss:css/ASM.css

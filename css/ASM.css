@@ -84,7 +84,14 @@ h1 {
 
 .audio_player {
   width: 100%;
-  margin: 5px 0 0; }
+  margin: 5px 0; }
+  @media (min-width: 400px) {
+    .audio_player {
+      width: 79%;
+      display: inline-block;
+      float: left; } }
+  .audio_player audio {
+    width: 100%; }
 
 h2 {
   margin-bottom: 0px; }
@@ -119,10 +126,22 @@ nav a {
   nav a :hover {
     text-decoration: underline; }
 
-.download_button a {
-  text-decoration: none;
-  background-color: #5C595A;
-  color: #D7D6D6;
-  padding: 5px; }
+.download_button {
+  text-align: center;
+  margin: 5px 0; }
+  .download_button a {
+    text-decoration: none;
+    background-color: #5C595A;
+    color: #D7D6D6;
+    line-height: 28px;
+    display: block; }
+  @media (min-width: 400px) {
+    .download_button {
+      width: 20%;
+      display: inline-block;
+      float: right; } }
+
+.audio_section {
+  overflow: hidden; }
 
 /*# sourceMappingURL=ASM.css.map */
