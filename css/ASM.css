@@ -21,7 +21,7 @@ body {
   text-align: center;
   background-color: #dfdfdf;
   overflow: hidden;
-  display: none; }
+  display: block; }
   #site_wide_display p {
     margin: 5px 0;
     font-size: 16px;

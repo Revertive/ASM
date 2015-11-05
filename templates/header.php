@@ -24,7 +24,7 @@ try {
 	<body>
 		<div id="site_wide_display">
 			<p>
-				There will no new sermons untill Dec 2.
+				There will be no new sermons untill Dec 2.
 			</p>
 		</div>
 		<div id="body">
