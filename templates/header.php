@@ -24,7 +24,7 @@ try {
 	<body>
 		<div id="site_wide_display">
 			<p>
-				There will be no new sermons untill Dec 2.
+				Due to technical difficulties we did not record the service on Dec 2. 
 			</p>
 		</div>
 		<div id="body">
